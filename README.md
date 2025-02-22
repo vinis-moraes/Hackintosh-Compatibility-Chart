@@ -120,7 +120,7 @@ GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) |
 **Vega 20(Radeon VII)** | 🚫 | 🚫  | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹¹ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 **Navi 10(RX 5xxx)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹²| ✅ | ✅ | ✅ | ✅ | ✅
 **Navi 21(RX 69xx, 68xx)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹³ | ✅ | ✅ | ✅ | ✅
-**Navi 23(RX 66**)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹⁴ | ✅ | ✅ | ✅
+**Navi 23(RX 66xx)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹⁴ | ✅ | ✅ | ✅
 
 >⁹ Legacy AMD/ATI GPUs need OpenCore Legacy Patcher to work on newer versions of macOS
 
@@ -133,3 +133,7 @@ GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) |
 >¹³ Starts at 11.4
 
 >¹⁴ Starts at 12.1
+
+Navi 24 (RX 6300, 6400, 6500XT) is not compatible **yet**. The project called [NootRX](https://chefkissinc.github.io/applehax/nootrx/) aims to bring support to these GPUs
+
+iGPU Compatibility depends on [NootedRed kext](https://chefkissinc.github.io/applehax/nootedred/). Use this if your hacking a laptop with Ryzen and Vega or RDNA Graphics
