@@ -1,3 +1,8 @@
-theme: minima
+title: Hackintosh Compatibility Chart
+author: Vini Moraes
+description: >
+  Information about hardware compatibility with every version of macOS
+
+remote_theme: jekyll/minima
 minima:
   skin: dark
