@@ -4,6 +4,7 @@
 table{
     width: 45vw;
     display: block;
+    overflow: scroll
 }
 
 @import "minima/skins/{{ site.minima.skin | default: 'dark' }}",
