@@ -15,4 +15,5 @@ CPU Generation/macOS Version | Tiger | Leopard | Snow Leopard | Lion | Mountain 
 **Intel Comet Lake**
 
 >¹ As Yonah and Conroe CPUs don't support SSE4, they can only boot up to Sierra. Penryn does support SSE4, so it works natively with High Sierra
+
 >² Penryn support for newer versions of macOS may require OpenCore Legacy Patcher
