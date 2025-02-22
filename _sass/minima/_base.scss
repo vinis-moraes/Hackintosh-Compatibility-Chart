@@ -252,7 +252,8 @@ pre {
  */
 table {
   margin-bottom: $spacing-unit;
-  width: 45vw;
+  max-width: 45vw;
+  min-width: 800px;
   display: block;
   overflow: scroll;
   text-align: $table-text-align;
