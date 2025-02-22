@@ -1,8 +1,22 @@
 # Hackintosh Compatibility Chart
  This repository contains informations about hardware compatibility with hackintosh
 
-## CPU Compatibility
-### Intel Desktop
+## Table of contents
+>- [CPU Compatibility](#cpu-compatibility)
+>   - [Intel Desktop](#intel-desktop)
+>   - [Intel Laptop](#intel-laptop)
+>   - [Intel HEDT](#intel-hedt-high-end-desktop)
+>   - [AMD Desktop](#amd-desktop)
+>   - [AMD Laptop](#amd-laptop)
+>- [Graphics Compatibility](#graphics-compatibility)
+>   - [NVIDIA Support](#nvidia-support)
+>   - [AMD/ATI Support](#amdati-support)
+>   - [Intel Support](#intel-support)
+
+
+
+## [🔝](#table-of-contents)CPU Compatibility
+### [🔝](#table-of-contents)Intel Desktop
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
 **Yonah, Conroe and Penryn(Core and Core 2)** | ✅¹ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️² | ⚠️³ | ⚠️³ | ⚠️³ | ⚠️³| ⚠️³ | ⚠️³ | ⚠️³   
@@ -25,7 +39,7 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 >⁵ Starts at OS X Snow Leopard 10.6.7
 
-### Intel Laptop
+### [🔝](#table-of-contents)Intel Laptop
 
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -51,7 +65,7 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 >⁷ Starts at macOS 10.14.1
 
-### Intel HEDT (High End Desktop)
+### [🔝](#table-of-contents)Intel HEDT (High End Desktop)
 
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -61,7 +75,7 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 **Broadwell-E**  | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 **Skylake-X/W and Cascade Lake-X/W** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ 
 
-### AMD Desktop
+### [🔝](#table-of-contents)AMD Desktop
 
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -70,7 +84,7 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 >³ Old CPUs support for newer versions of macOS may require OpenCore Legacy Patcher or CryptexFixup kext (CPUs that don't support AVX2)
 
-### AMD Laptop
+### [🔝](#table-of-contents)AMD Laptop
 
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -78,9 +92,9 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 >The OpenCore Team does not provide guides to build Ryzentoshes on laptops. On the other side, there are reports of various succesful builds using laptops with Ryzen and Integrated Graphics over the Internet
 
-## Graphics Compatibility
+## [🔝](#table-of-contents)Graphics Compatibility
 
-### NVIDIA support
+### [🔝](#table-of-contents)NVIDIA Support
 
 Apple dropped support for NVIDIA GPUs in High Sierra, so only GPUs compatible at this time work on macOS
 
@@ -101,7 +115,7 @@ GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) |
 
 Newer generations, like GTX 16xx, RTX 20xx, RTX 30xx, RTX 40xx or RTX 50xx have no support on macOS.
 
-### AMD/ATI support
+### [🔝](#table-of-contents)AMD/ATI Support
 
 GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -138,7 +152,7 @@ Navi 24 (RX 6300, 6400, 6500XT) is not compatible **yet**. The project called [N
 
 iGPU Compatibility depends on [NootedRed kext](https://chefkissinc.github.io/applehax/nootedred/). Use this if your hacking a laptop with Ryzen and Vega or RDNA Graphics
 
-### Intel support
+### [🔝](#table-of-contents)Intel Support
 
 GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
