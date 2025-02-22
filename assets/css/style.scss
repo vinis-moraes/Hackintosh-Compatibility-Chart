@@ -1,7 +1,9 @@
 ---
+
 ---
 
-@import "{{ site.theme }}";
+@import "minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "minima/initialize";
 
 table{
     width: 45vw;
