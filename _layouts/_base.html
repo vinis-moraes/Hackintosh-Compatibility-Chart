@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {%- include head.html -%}
+  <head>
+    <style>
+        table{
+            width: 45vw;
+        }
+    </style>
+  </head>
 
   <body>
 
@@ -16,10 +22,5 @@
     {%- include footer.html -%}
 
   </body>
-  <style>
-    table{
-        width: 45vw;
-        overflow: auto;
-    }
-  </style>
+  
 </html>
