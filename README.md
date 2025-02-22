@@ -80,5 +80,18 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 ## Graphics Compatibility
 
+### NVIDIA support
+
+Apple dropped support for NVIDIA GPUs in High Sierra, so only GPUs compatible at this time work on macOS
+
 GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+**Fermi (4xx, 5xx)**
+**Fermi Rebranded (GTX 6xx, 7xx)** | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸
+**Kepler(GTX 6xx, 7xx)** | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸
+**Maxwell(GTX 745, 750/Ti, 9xx)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸
+**Pascal(GTX 10xx)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸ | ⚠️⁸
+
+>⁸ Modern macOS doesn't support natively NVIDIA GPUs. Use OpenCore Legacy Patcher to add support to these chips (you may find some issues with these hardwares)
+
+Newer generations, like GTX 16xx, RTX 20xx, RTX 30xx, RTX 40xx or RTX 50xx have no support on macOS.
