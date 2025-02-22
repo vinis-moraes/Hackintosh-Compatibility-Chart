@@ -137,3 +137,37 @@ GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) |
 Navi 24 (RX 6300, 6400, 6500XT) is not compatible **yet**. The project called [NootRX](https://chefkissinc.github.io/applehax/nootrx/) aims to bring support to these GPUs
 
 iGPU Compatibility depends on [NootedRed kext](https://chefkissinc.github.io/applehax/nootedred/). Use this if your hacking a laptop with Ryzen and Vega or RDNA Graphics
+
+### Intel support
+
+GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+**3rd Gen GMA** | ✅ | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫
+**4th Gen GMA(3000, 3500, 4500)** | 🚫 | ✅ | ✅ | ✅ | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫
+**HD Graphics(1st Gen, Westmere)** | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵
+**HD Graphics 2000¹⁶, 3000 (Sandy Bridge)** | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵
+**HD Graphics 2500¹⁶, 4000 (Ivy Bridge)** | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵
+**HD Graphics 4200-5100 (Haswell)** | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ 
+**HD Graphics 5300-6200, Iris P6300 (Broadwell)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹⁷ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁵ | ⚠️¹⁵ | ⚠️¹⁵ 
+**HD 515-530, Iris 540-580 (Skylake)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅¹⁸ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️¹⁹| ⚠️¹⁹ | ⚠️¹⁹
+**HD 615-630, Iris Plus 640, 650 (Kaby Lake)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅²⁰ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+**UHD 615-630, Iris Plus 645, 655 (8th, 9th, 10th)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅²¹ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+**Iris Plus G4, G7 (Ice Lake)** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫  | 🚫 | ✅²² | ✅ | ✅ | ✅ | ✅ | ✅
+
+>¹⁵ Legacy Intel iGPU need OpenCore Legacy Patcher on newer versions of macOS
+
+>¹⁶ 2xxx series can only be used for Quicksync
+
+>¹⁷ Starts at 10.10.2
+
+>¹⁸ Starts at 10.11.4
+
+>¹⁹ macOS Ventura drops support for Skylake iGPUs. However, since Skylake and Kaby Lake iGPUs are so similar, Skylake iGPUs can be spoofed as Kaby Lake in order to make use of the Kaby Lake kexts, which are still present in Ventura and Sonoma. [Check here for more information](https://dortania.github.io/GPU-Buyers-Guide/modern-gpus/intel-gpu.html#skylake-6xxx)
+
+>²⁰ Starts at 10.12.6
+
+>²¹ Starts at 10.13.6
+
+>²² Starts at 10.15.4
+
+Newer iGPU (based on Xe), dGPU (based on Xe) and GT1 are **not** compatible **and will never be**.
