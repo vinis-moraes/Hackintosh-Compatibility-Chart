@@ -69,3 +69,16 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 **Ryzen and Threadripper** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
 
 >³ Old CPUs support for newer versions of macOS may require OpenCore Legacy Patcher or CryptexFixup kext (CPUs that don't support AVX2)
+
+### AMD Laptop
+
+CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+**Ryzen** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+
+>The OpenCore Team does not provide guides to build Ryzentoshes on laptops. On the other side, there are reports of various succesful builds using laptops with Ryzen and Integrated Graphics over the Internet
+
+## Graphics Compatibility
+
+GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
