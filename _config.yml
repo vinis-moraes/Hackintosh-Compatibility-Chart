@@ -3,8 +3,6 @@ author: Vini Moraes
 description: >
   Information about hardware compatibility with every version of macOS
 
-plugins:
-  - jekyll-remote-theme
-remote_theme: vinis-moraes/webtheme
+remote_theme: jekyll/minima
 minima:
   skin: dark
