@@ -12,6 +12,10 @@
 >   - [NVIDIA Support](#nvidia-support)
 >   - [AMD/ATI Support](#amdati-support)
 >   - [Intel Support](#intel-support)
+>- [Storage Compatibility](#storage-compatibility)
+>- [Wired Network](#wired-network)
+>- [Wireless Network](#wireless-network)
+>- [Other](#fingerprint-sensors)
 
 
 
@@ -185,3 +189,46 @@ GPU Family/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) |
 >²² Starts at 10.15.4
 
 Newer iGPU (based on Xe), dGPU (based on Xe) and GT1 are **not** compatible **and will never be**.
+
+## [🔝](#table-of-contents)Storage Compatibility
+
+99.99% of the HDD and SSD models are compatible with macOS. There are only a few exceptions:
+
+- Samsung PM981, PM991 and Micron 2200S NVMe SSDs: use NVMeFix kext to solve kernel panic problems;
+- Optane: doesn't work at all, disable in BIOS an/or remove the drive.
+
+## [🔝](#table-of-contents)Wired Network
+
+99.99% of wired network solutions should work in one way or another, so probably you won't have problems with that.
+
+## [🔝](#table-of-contents)Wireless Network
+
+Well... here the problem comes. Most of Wi-FI cards that come with laptops are not supported by default, but there are kexts to fix most of them
+
+* Intel Wireless - work on newer versions of macOS with [OpenIntelWireless solutions](https://openintelwireless.github.io/); Bluetooth support with [this kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases).
+* Atheros - since Mojave, Apple dropped the native support for these chipsets. Use [this](https://github.com/khronokernel/IO80211-Patches/blob/main/10.13.6-High-Sierra-Kexts/IO80211HighSierra.kext.zip) to have Wi-Fi and [this](https://github.com/zxystd/AthBluetoothFirmware/releases) to Bluetooth.
+* Broadcom - for non-Apple adapters, use [this](https://github.com/acidanthera/AirportBrcmFixup) and [this](https://github.com/acidanthera/BrcmPatchRAM/releases) to have support. Read more about it at [OpenCore Documentation](https://dortania.github.io/Wireless-Buyers-Guide/Kext.html#broadcom).
+
+## [🔝](#table-of-contents)Fingerprint Sensors
+
+No support at all.
+
+## [🔝](#table-of-contents)Face Recognition
+
+Maybe you'll get your camera working, nothing else.
+
+## [🔝](#table-of-contents)Intel Smart Sount Technology
+
+Won't work, as Macs don't even know what this is.
+
+## [🔝](#table-of-contents)Headphone Jack Combo
+
+There are chances of working, as well as not. Test and see the results.
+
+## [🔝](#table-of-contents)Thunderbolt USB-C Ports
+
+Don't work, cause a lot of Kernel Panics. Disable them in BIOS. (Only affects ports that are both USB-C and Thunderbolt, regular USB-C work normally)
+
+***
+
+If you know more informations about some hardware compatibility that is not listed nere, or some information that is wrong, please open an issue at the repository page. If it helped you, save it with a star to help the project.
