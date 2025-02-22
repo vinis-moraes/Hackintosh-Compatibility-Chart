@@ -21,6 +21,7 @@
 
 ## [🔝](#table-of-contents)CPU Compatibility
 ### [🔝](#table-of-contents)Intel Desktop
+
 CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
 **Yonah, Conroe and Penryn(Core and Core 2)** | ✅¹ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️² | ⚠️³ | ⚠️³ | ⚠️³ | ⚠️³| ⚠️³ | ⚠️³ | ⚠️³   
