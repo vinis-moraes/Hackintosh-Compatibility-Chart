@@ -45,6 +45,17 @@ CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.
 
 > _Due to the fact that most laptops rely only on Integrated Graphics, check GPU Compatibility. Most iGPUs can be used with OpenCore Legacy Patcher to provide support for newer OS releases_
 
+>³ Old CPUs support for newer versions of macOS may require OpenCore Legacy Patcher or CryptexFixup kext (CPUs that don't support AVX2)
+
 >⁶ CPU is supported, but iGPU is not. Use OpenCore Legacy Patcher to have Graphics Acceleration
 
 >⁷ Starts at macOS 10.14.1
+
+### AMD Desktop
+
+CPU Generation/macOS Version | Tiger (10.4) | Leopard (10.5) | Snow Leopard (10.6) | Lion (10.7) | Mountain Lion (10.8) | Mavericks (10.9) | Yosemite (10.10) | El Capitain (10.11) | Sierra (10.12) | High Sierra (10.13) | Mojave (10.14) | Catalina (10.15) | Big Sur (11) | Monterrey (12) | Ventura (13) | Sonoma (14) | Sequoia (15)
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+**Bulldozer and Jaguar** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ⚠️³ | ⚠️³ | ⚠️³
+**Ryzen and Threadripper** | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | 🚫 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅
+
+>³ Old CPUs support for newer versions of macOS may require OpenCore Legacy Patcher or CryptexFixup kext (CPUs that don't support AVX2)
