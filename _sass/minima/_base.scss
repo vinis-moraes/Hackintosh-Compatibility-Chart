@@ -283,3 +283,28 @@ table {
             -ms-overflow-style: -ms-autohiding-scrollbar;
   }
 }
+
+
+// Typical Devices Breakpoint
+
+@media screen and (max-width:480px) {
+  table{
+    width: 90vw;
+  }
+}
+@media screen and (min-width:481px) and (max-width:768px) {
+  table{
+    width: 85vw;
+  }
+  
+}
+@media screen and (min-width:769px) and (max-width:1279px) {
+  table{
+    width: 80vw;
+  }
+}
+@media screen and (min-width:1280px) {
+  table{
+    width: 45vw;
+  }  
+}
