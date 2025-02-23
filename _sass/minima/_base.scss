@@ -254,7 +254,7 @@ table {
   margin-bottom: $spacing-unit;
   max-width: 700px;
   display: block;
-  overflow: scroll;
+  overflow: auto;
   text-align: $table-text-align;
   color: $table-text-color;
   border-collapse: collapse;
